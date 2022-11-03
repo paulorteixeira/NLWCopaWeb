@@ -1,4 +1,14 @@
-html,
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/*html,
 body {
   padding: 0;
   margin: 0;
@@ -24,3 +34,4 @@ a {
     background: black;
   }
 }
+*/
